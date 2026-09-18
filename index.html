@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Application Template </title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--  HEADER -->
+<header class="header">
+    <div class="container nav-container">
+        <a href="#home" class="logo"> Appli
+        </a>
+
+        <!-- Mobile menu -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#faq">FAQ</a>
+
+            <!-- BLOG KA MENU -->
+            <div class="blog-dropdown">
+                <input type="checkbox" id="blog-toggle">
+                <label for="blog-toggle" class="blog-title"> Blog
+                    <i class="fa-solid fa-chevron-down"></i>
+                </label>
+
+                <div class="blog-menu">
+                    <a href="#blog-main"> Blog </a>
+                    <a href="#blog-details"> Blog Details </a>
+                    <a href="#elements"> Element </a>
+                </div>
+            </div>
+            <a href="#reviews"> Reviews </a>
+            <a href="#contact"> Contact </a>
+        </nav>
+    </div>
+</header>
+
+<!--  HERO -->
+<section class="hero" id="home">
+    <div class="hero-shape shape-one"></div>
+    <div class="hero-shape shape-two"></div>
+
+    <div class="container hero-container">
+
+        <!-- HERO CONTENT -->
+        <div class="hero-content">
+            <p class="small-title"> BUSINESS NETWORK </p>
+            <h1>
+                Stay connected together
+                in your own business network </h1>
+            <p class="hero-text">
+                Build meaningful connections, manage your work
+                and grow your business with one simple platform.
+            </p>
+            <div class="hero-buttons">
+                <!-- LOGIN -->
+                <button
+                    class="btn primary-btn" id="openLogin"> Login </button>
+                <a href="#features" class="btn secondary-btn"> Explore More </a>
+            </div>
+        </div>
+
+        <!-- HERO BROWSER -->
+        <div class="hero-visual">
+            <div class="browser-window">
+                <div class="browser-top">
+                    <div class="browser-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="browser-address"> appli.business </div>
+                </div>
+                <div class="browser-body">
+                    <!-- SIDEBAR -->
+                    <div class="dashboard-sidebar">
+                        <div class="side-logo"> A </div>
+
+                        <i class="fa-solid fa-house active"></i>
+                        <i class="fa-solid fa-chart-column"></i>
+                        <i class="fa-solid fa-users"></i>
+                        <i class="fa-solid fa-message"></i>
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <!-- DASHBOARD -->
+
+                    <div class="dashboard-content">
+                        <p class="dashboard-small"> Welcome back </p>
+                        <h3> Business Overview </h3>
+
+                        <div class="dashboard-cards">
+                            <div class="mini-card">
+                                <span> Total Users </span>
+                                <strong> 12.8K </strong>
+                            </div>
+                            <div class="mini-card">
+                                <span> Growth </span>
+                                <strong> +28% </strong>
+                            </div>
+                        </div>
+                        <div class="chart-box">
+                            <div class="chart-header">
+                                <span> Monthly Growth </span>
+                                <span> 2026 </span>
+                            </div>
+                            <div class="chart">
+                                <span style="height:35%"></span>
+                                <span style="height:52%"></span>
+                                <span style="height:45%"></span>
+                                <span style="height:68%"></span>
+                                <span style="height:58%"></span>
+                                <span style="height:82%"></span>
+                                <span style="height:95%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FLOATING CARDS SCREEN PA -->
+            <div class="floating-card growth-card">
+                <div class="floating-icon">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                </div>
+                <div>
+                    <small> Growth </small>
+                    <strong> +28.4% </strong>
+                </div>
+            </div>
+            <div class="floating-card user-card">
+                <div class="avatar-group">
+                    <span>A</span>
+                    <span>B</span>
+                    <span>C</span>
+                </div>
+                <div>
+                    <small> Active users </small>
+                    <strong> 8,426 </strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  TRUSTED SECTION COMPANY KE LOGOS WALA  -->
+<section class="trusted">
+    <div class="container">
+        <p> Trusted by growing businesses </p>
+        <div class="company-logos">
+            <span>Google</span>
+            <span>Microsoft</span>
+            <span>Spotify</span>
+            <span>Adobe</span>
+            <span>Slack</span>
+        </div>
+    </div>
+</section>
+
+<!--  FEATURES -->
+<section class="features-section section" id="features">
+    <div class="container">
+        <div class="section-heading">
+            <p class="small-title"> OUR FEATURES </p>
+            <h2> Everything you need to grow </h2>
+            <p>
+                Simple tools designed to make your business
+                communication faster and easier. </p>
+        </div>
+
+        <div class="features-grid">
+            <!-- CARD 1 -->
+            <div class="feature-card">
+                <div class="feature-icon icon-blue">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+                <h3> Design & creatives </h3>
+                <p>
+                    The automated process starts as soon as
+                    your work goes into the system. </p>
+            </div>
+            <!-- CARD 2 -->
+            <div class="feature-card">
+                <div class="feature-icon icon-orange">
+                    <i class="fa-brands fa-ubuntu"></i>
+                </div>
+                <h3> Smart workflow </h3>
+                <p>
+                    Organize your daily tasks and keep
+                    everything connected in one place. </p>
+            </div>
+            <!-- CARD 3 -->
+            <div class="feature-card">
+                <div class="feature-icon icon-purple">
+                    <i class="fa-solid fa-cubes"></i>
+                </div>
+                <h3> Business network </h3>
+                <p>
+                    Connect your team and build strong
+                    professional relationships. </p>
+            </div>
+            <!-- CARD 4 -->
+            <div class="feature-card">
+                <div class="feature-icon icon-yellow">
+                    <i class="fa-solid fa-circle-notch"></i>
+                </div>
+                <h3> Easy management </h3>
+                <p>
+                    Manage your projects and activities
+                    without complicated tools. </p>
+            </div>
+            <!-- CARD 5 -->
+            <div class="feature-card">
+                <div class="feature-icon icon-green">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h3> Better analytics </h3>
+                <p>
+                    Understand your performance with
+                    clear and useful business insights. </p>
+            </div>
+            <!-- CARD 6 -->
+            <div class="feature-card">
+                <div class="feature-icon icon-red">
+                    <i class="fa-regular fa-file-lines"></i>
+                </div>
+                <h3> Smart reports </h3>
+                <p>
+                    Create organized reports and keep
+                    important information easy to access. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  ABOUT -->
+<section class="about-section section" id="about">
+    <div class="container about-container">
+        <div class="about-visual">
+            <div class="analytics-window">
+                <div class="analytics-top">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="analytics-body">
+                    <div class="analytics-sidebar"></div>
+                    <div class="analytics-main">
+                        <p> Analytics </p>
+                        <h3> Performance Overview </h3>
+                        <div class="analytics-stats">
+                            <div>
+                                <small> Revenue </small>
+                                <strong> $24.8K </strong>
+                            </div>
+                            <div>
+                                <small> Visitors </small>
+                                <strong> 18.2K </strong>
+                            </div>
+                        </div>
+
+                        <div class="analytics-chart">
+                            <div class="line one"></div>
+                            <div class="line two"></div>
+                            <div class="line three"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <p class="small-title"> ABOUT APPLI </p>
+            <h2>
+                Build better connections
+                with your team </h2>
+            <p>
+                Appli helps businesses communicate, organize
+                projects and understand their performance
+                through a simple digital workspace. </p>
+            <p>
+                Everything is designed to save time and make
+                everyday business activities easier. </p>
+
+            <ul class="check-list">
+                <li>
+                    <i class="fa-solid fa-circle-check"></i> Easy team communication
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle-check"></i> Powerful business analytics
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle-check"></i> Simple project management
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--  PERSONALIZATION -->
+<section class="personal-section section">
+    <div class="container personal-container">
+        <div class="personal-content">
+            <p class="small-title"> PERSONALIZED EXPERIENCE </p>
+            <h2>
+                A workspace made
+                for your business </h2>
+            <p>
+                Customize your workspace and give every
+                team member the tools they need to work
+                more efficiently. </p>
+            <div class="personal-stats">
+                <div>
+                    <strong> 98% </strong>
+                    <span> Productivity </span>
+                </div>
+                <div>
+                    <strong> 24/7 </strong>
+                    <span> Support </span>
+                </div>
+                <div>
+                    <strong> 15K+ </strong>
+                    <span> Users </span>
+                </div>
+            </div>
+        </div>
+        <div class="personal-visual">
+            <div class="personal-browser">
+                <div class="personal-browser-top">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="personal-browser-body">
+                    <div class="profile-box">
+                        <div class="profile-avatar">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div>
+                            <strong> My Workspace </strong>
+                            <small> Personal dashboard </small>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <div class="progress-heading">
+                            <span> Project progress </span>
+                            <strong> 78% </strong>
+                        </div>
+                        <div class="progress">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="small-dashboard-cards">
+                        <div>
+                            <i class="fa-solid fa-users"></i>
+                            <strong> 2.4K </strong>
+                            <small> Members </small>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-folder"></i>
+                            <strong> 186 </strong>
+                            <small> Projects </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  PROCESS -->
+<section class="process-section section">
+    <div class="container">
+        <div class="section-heading">
+            <p class="small-title"> HOW IT WORKS </p>
+            <h2>
+                Simple steps to get started </h2>
+        </div>
+        <div class="process-grid">
+            <div class="process-item">
+                <div class="process-number"> 01 </div>
+                <h3>
+                    Create your account </h3>
+                <p>
+                    Sign up and create your business profile
+                    in just a few simple steps. </p>
+            </div>
+
+            <div class="process-item">
+                <div class="process-number"> 02 </div>
+                <h3>
+                    Connect your team </h3>
+                <p>
+                    Invite your team members and start
+                    collaborating together. </p>
+            </div>
+            <div class="process-item">
+                <div class="process-number"> 03</div>
+                <h3>
+                    Grow your business </h3>
+                <p>
+                    Use analytics and smart tools to
+                    improve your daily performance. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  FAQ -->
+<section class="faq-section section" id="faq">/
+    <div class="container">
+        <div class="section-heading">
+            <p class="small-title"> FAQ </p>
+            <h2> Frequently Asked Questions </h2>
+            <p>
+                Find answers to the most common questions
+                about our services and automated process. </p>
+        </div>
+        <div class="faq-wrapper">
+            <h3 class="faq-category"> General queries </h3>
+
+            <!-- FAQ 1 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>
+                        Starts the automated process.
+                    </span>
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>
+                        The automated process starts as soon
+                        as your clothes go into the machine.
+                        Duis cursus, mi quis viverra ornare.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>
+                        The automated process starts.
+                    </span>
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        The automated process starts as soon
+                        as your clothes go into the machine.
+                        Duis cursus, mi quis viverra ornare.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>
+                        Automated process starts.
+                    </span>
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        The automated process starts as soon
+                        as your clothes go into the machine.
+                        Duis cursus, mi quis viverra ornare.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>
+                        Process the automated magic.
+                    </span>
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        The automated process starts as soon
+                        as your clothes go into the machine.
+                        Duis cursus, mi quis viverra ornare.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  BLOG MAIN -->
+<section class="blog-section section" id="blog-main">
+    <div class="container">
+        <div class="section-heading">
+            <p class="small-title"> OUR BLOG </p>
+            <h2>
+                Latest from our blog </h2>
+            <p>
+                Discover useful ideas, business tips and
+                insights from our latest articles. </p>
+        </div>
+
+        <div class="blog-grid">
+
+            <!-- BLOG CARD 1 -->
+            <article class="blog-card">
+                <div class="blog-image blog-image-one">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <div class="blog-content">
+                    <span class="blog-date"> Business </span>
+                    <h3> How to improve your business workflow </h3>
+                    <p>
+                        Simple ways to organize your work
+                        and improve team productivity. </p>
+                    <a href="#blog-details"> Read More
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- BLOG CARD 2 -->
+            <article class="blog-card">
+                <div class="blog-image blog-image-two">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date"> Team </span>
+                    <h3> Building a stronger business team </h3>
+                    <p>
+                        Learn how better communication can
+                        improve your team's performance. </p>
+                    <a href="#blog-details"> Read More
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- BLOG CARD 3 -->
+            <article class="blog-card">
+                <div class="blog-image blog-image-three">
+                    <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date"> Productivity </span>
+                    <h3> Smart ideas for growing businesses </h3>
+                    <p>
+                        Explore practical ideas that can
+                        help your business grow. </p>
+                    <a href="#elements"> Read More
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!--  BLOG DETAILS -->
+<section class="blog-details-section section" id="blog-details">
+
+    <div class="container blog-details-container">
+        <div class="blog-details-content">
+            <p class="small-title"> BLOG DETAILS </p>
+            <h2> Building a stronger and smarter business </h2>
+            <p class="blog-meta"> Business • 2026 </p>
+            <p>
+                A successful business depends on strong
+                communication, organized workflows and
+                meaningful connections between team members. </p>
+            <p>
+                Modern digital tools can help businesses
+                simplify everyday activities and focus on
+                important goals. </p>
+            <p>
+                By using analytics, communication tools and
+                organized project management, teams can
+                work more efficiently and achieve better
+                results. </p>
+            <a href="#blog-main" class="btn primary-btn"> Back to Blog </a>
+        </div>
+
+        <div class="blog-detail-visual">
+            <div class="detail-box">
+                <i class="fa-solid fa-newspaper"></i>
+                <h3>  Business Insights</h3>
+                <p>
+                    Ideas that help your team work smarter. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  ELEMENT SECTION -->
+<section class="elements-section section" id="elements">
+    <div class="container">
+        <div class="section-heading">
+            <p class="small-title">  ELEMENT  </p>
+            <h2> Useful website elements </h2>
+            <p>
+                A collection of simple interface elements
+                used throughout the website. </p>
+        </div>
+
+        <div class="elements-grid">
+            <div class="element-box">
+                <i class="fa-solid fa-check"></i>
+                <h3> Simple design </h3>
+                <p>
+                    Clean layouts make information easier
+                    to understand. </p>
+            </div>
+
+            <div class="element-box">
+                <i class="fa-solid fa-bolt"></i>
+                <h3> Fast workflow </h3>
+                <p>
+                    Organized tools help users complete
+                    their tasks quickly. </p>
+            </div>
+
+            <div class="element-box">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>  Responsive layout </h3>
+                <p>
+                    The interface adjusts smoothly to
+                    different screen sizes.  </p>
+            </div>
+
+            <div class="element-box">
+                <i class="fa-solid fa-chart-pie"></i>
+                <h3> Clear analytics </h3>
+                <p>
+                    Visual information makes business
+                    performance easier to understand. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  REVIEWS -->
+<section class="reviews-section section" id="reviews">
+    <div class="container">
+        <div class="section-heading">
+            <p class="small-title">
+                CUSTOMER REVIEWS
+            </p>
+            <h2> What our users say </h2>
+        </div>
+
+        <div class="review-slider">
+            <!-- REVIEW 1 -->
+            <div class="review-slide active" id="review1">
+                <div class="quote-icon">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p class="review-text">
+                    "Appli has made communication between
+                    our team much easier. Everything is now
+                    organized and available in one place."
+                </p>
+                <div class="review-person">
+                    <div class="review-avatar"> A </div>
+                    <div>
+                        <strong>  Sarah Williams </strong>
+                        <span> Marketing Manager </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- REVIEW 2 -->
+            <div class="review-slide" id="review2">
+                <div class="quote-icon">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p class="review-text">
+                    "The analytics and project tools have
+                    helped us understand our business better
+                    and improve our workflow."
+                </p>
+                <div class="review-person">
+                    <div class="review-avatar"> M
+                    </div>
+                    <div>
+                        <strong> Michael Brown </strong>
+                        <span> Business Owner </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDER BUTTONS -->
+            <div class="slider-controls">
+                <button class="slider-btn active" data-slide="1"> 1 </button>
+                <button class="slider-btn" data-slide="2"> 2 </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  CTA -->
+<section class="cta-section">
+    <div class="container cta-container">
+        <div>
+            <p class="small-title">
+                GET STARTED TODAY </p>
+            <h2>
+                Start building your business network </h2>
+        </div>
+        <button class="btn cta-btn" id="openLoginBottom"> Login Now </button>
+    </div>
+</section>
+
+<!--  FOOTER -->
+<footer class="footer" id="contact">
+    <div class="container footer-grid">
+        <div class="footer-about">
+            <a href="#home" class="logo footer-logo">
+                Appli<span>.</span>
+            </a>
+            <p>
+                A simple business network that helps teams
+                connect, collaborate and grow. </p>
+
+            <div class="social-icons">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3> Our Solutions </h3>
+            <a href="#features"> Features </a>
+            <a href="#about"> Analytics </a>
+            <a href="#about"> Team Management </a>
+            <a href="#reviews"> Reviews </a>
+        </div>
+
+        <div class="footer-column">
+            <h3> Company </h3>
+            <a href="#about"> About Us </a>
+            <a href="#home"> Our Mission </a>
+            <a href="#contact"> Contact </a>
+            <a href="#reviews"> Customers </a>
+        </div>
+
+        <div class="footer-column">
+            <h3> Support </h3>
+            <a href="#faq"> FAQ </a>
+            <a href="#blog-main"> Blog </a>
+            <a href="#"> Privacy Policy </a>
+            <a href="#"> Terms </a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            © 2026 Appli. All Rights Reserved. </p>
+    </div>
+</footer>
+
+<!--  LOGIN MOODULE -->
+<div class="login-overlay" id="loginOverlay">
+
+    <div class="login-background"></div>
+    <div class="login-box">
+        <button class="close-login" id="closeLogin">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="login-logo">
+            <i class="fa-solid fa-link"></i>
+        </div>
+        <h2> Login Here </h2>
+
+        <form id="loginForm">
+            <div class="login-field">
+                <label> Email </label>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="login-field">
+                <label> Password </label>
+                <input type="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="login-submit"> Login </button>
+        </form>
+
+        <div class="login-links">
+            <a href="#"> Forget Password </a>
+            <a href="#"> Registration </a>
+        </div>
+    </div>
+</div>
+<!--  JAVAS USE FOR LOGIN BTN -->
+
+<script>
+
+const loginOverlay = document.getElementById("loginOverlay");
+
+const openLogin = document.getElementById("openLogin");
+
+const openLoginBottom = document.getElementById("openLoginBottom");
+
+const closeLogin =  document.getElementById("closeLogin");
+
+function showLogin() {
+    loginOverlay.classList.add("show");
+    document.body.classList.add("no-scroll");
+}
+
+function hideLogin() {
+    loginOverlay.classList.remove("show");
+    document.body.classList.remove("no-scroll");
+}
+
+openLogin.addEventListener(
+    "click",
+    showLogin
+);
+
+openLoginBottom.addEventListener(
+    "click",
+    showLogin
+);
+
+closeLogin.addEventListener(
+    "click",
+    hideLogin
+);
+
+loginOverlay.addEventListener(
+    "click",
+    function(event) {
+        if (event.target === loginOverlay) {
+            hideLogin();
+        }
+    }
+);
+
+document.addEventListener(
+    "keydown",
+    function(event) {
+        if (event.key === "Escape") {
+            hideLogin();
+        }
+    }
+);
+
+/* JAVA FOR LOGIN FORM */
+
+const loginForm = document.getElementById("loginForm");
+
+loginForm.addEventListener(
+    "submit",
+    function(event) {
+        event.preventDefault();
+        alert("Login button clicked!");
+    }
+);
+
+/* JAVA FOR REVIEW SLIDER */
+
+const slides = document.querySelectorAll(".review-slide");
+
+const sliderButtons = document.querySelectorAll(".slider-btn");
+
+sliderButtons.forEach(function(button) {
+    button.addEventListener(
+        "click",
+        function() {
+            const slideNumber = this.getAttribute("data-slide");
+
+            slides.forEach(function(slide) {
+                slide.classList.remove("active");
+            });
+
+            sliderButtons.forEach(function(btn) {
+                btn.classList.remove("active");
+            });
+
+            document.getElementById(
+                    "review" + slideNumber
+                )
+                .classList.add("active");
+
+            this.classList.add("active");
+
+        }
+    );
+});
+
+/* JAVA FAQ ACCORDION */
+
+const faqQuestions = document.querySelectorAll(".faq-question");
+
+faqQuestions.forEach(function(question) {
+
+    question.addEventListener(
+        "click",
+        function() {
+            const currentItem = this.parentElement;
+
+            const isOpen = currentItem.classList.contains("open");
+
+            /* Close all FAQs */
+            document
+                .querySelectorAll(".faq-item")
+                .forEach(function(item) {
+
+                    item.classList.remove("open");
+                });
+
+            /* Open clicked FAQ */
+            if (!isOpen) {
+                currentItem.classList.add("open");
+            }
+        }
+    );
+});
+
+/*  MOBILE MENU */
+const menuToggle = document.getElementById("menu-toggle");
+
+const navLinks =
+    document.querySelectorAll(
+        ".navbar a"
+    );
+
+navLinks.forEach(function(link) {
+
+    link.addEventListener(
+        "click",
+        function() {
+            menuToggle.checked = false;
+        }
+    );
+})
+</script>
+</body>
+</html>
